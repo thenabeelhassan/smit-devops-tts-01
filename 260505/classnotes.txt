@@ -1,0 +1,31 @@
+1. cd ~
+2. nano .bashrc
+    Add this line in end of file .bashrc:
+        export PATH="$HOME/.local/bin:$PATH"
+3. source .bashrc
+4. pip3 install fastapi uvicorn
+5. mkdir <Project Name>
+6. cd <Project Name>
+7. touch app.py
+8. touch server.json
+9. uvicorn app:app --port 8001 --reload
+
+Step No. 2, 3, and 4 will be done first(one) time only
+
+
+curl -X POST "http://localhost:8001/server?server_name=server5" \
+    -H "Content-Type: application/json" \
+    -d '{ 
+        "id": 5, 
+        "name": 
+        "dbserver", 
+        "ip": "192.168.18.50", 
+        "status": "running", 
+        "users": ["nabeel", "dbadmin"] 
+    }'
+
+40 EC2s: Bash Script => Hostname, Ip Address, Users, Use Case send to API Server
+
+API Server: 
+    - Receives data from Server and Save to server.json
+    - Publish the data to /data endpoints

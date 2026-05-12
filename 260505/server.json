@@ -1,0 +1,56 @@
+{
+    "server1": {
+        "id": 1,
+        "name": "webserver",
+        "ip": "192.168.18.10",
+        "status": "running",
+        "users": [
+            "nabeel",
+            "ali",
+            "dev"
+        ]
+    },
+    "server2": {
+        "id": 1,
+        "name": "webserver",
+        "ip": "192.168.18.10",
+        "status": "stopped",
+        "users": [
+            "nabeel",
+            "ali",
+            "dev"
+        ]
+    },
+    "server3": {
+        "id": 1,
+        "name": "webserver",
+        "ip": "192.168.18.10",
+        "status": "stopped",
+        "users": [
+            "nabeel",
+            "ali",
+            "dev"
+        ]
+    },
+    "server4": {
+        "id": 1,
+        "name": "webserver",
+        "ip": "192.168.18.10",
+        "status": "stopped",
+        "users": [
+            "nabeel",
+            "ali",
+            "dev"
+        ]
+    },
+    "server5": {
+        "id": 5,
+        "name": "dbserver",
+        "ip": "192.168.18.50",
+        "status": "running",
+        "users": [
+            "nabeel",
+            "dbadmin"
+        ]
+    }
+}

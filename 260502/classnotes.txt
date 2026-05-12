@@ -1,0 +1,22 @@
+
+JSON : JavaScript Object Notation
+
+4 Server: Bash (CPU, Memory, Disk)
+
+Monitoring APP -> API (Application Progammable Interface)
+
+
+
+
+
+
+nano .bashrc
+add this line in end of file .bashrc (present at home dir of user) (~)
+export PATH="$HOME/.local/bin:$PATH"
+
+source .bashrc
+
+pip3 install fastapi uvicorn
+
+
+
